@@ -219,8 +219,10 @@ article > img {
   background-size: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px;
-  max-height: 574px;
+  /* width: 100%;
+  height: 100%; */
+  /* max-width: 1440px;
+  max-height: 574px; */
   position: absolute;
   z-index: -1;
 }
@@ -271,4 +273,37 @@ article > img {
   color: #2c2d35;
 
   cursor: pointer;
+}
+
+/* Стили для четвертой секции */
+
+.last-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.last-img{
+  margin: 70px 0;
+}
+
+.last-list {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+.last-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #2c2d35;
+  margin: 20px 0;
 }
