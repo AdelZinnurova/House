@@ -212,3 +212,63 @@ article > img {
   margin-bottom: 30px;
   /* flex-wrap: wrap; */
 }
+
+/* Стили для третьей секции */
+
+.background-image {
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1440px;
+  max-height: 574px;
+  position: absolute;
+  z-index: -1;
+}
+
+.new-collection {
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-img-wrapper {
+  display: flex;
+  gap: 20px;
+  margin: 70px 0 20px 0;
+}
+
+.second-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  color: #f4f6f5;
+}
+
+.description-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.additionally {
+  margin-bottom: 20px;
+}
+
+.familiarize-button {
+  background-color: #eedb6d;
+  padding: 21px 60px;
+  max-width: 257px;
+  max-height: 65px;
+  margin-top: 60px;
+  margin-bottom: 68px;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #2c2d35;
+
+  cursor: pointer;
+}
