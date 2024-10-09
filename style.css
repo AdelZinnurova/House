@@ -1,0 +1,55 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a {
+  all: unset; /* Все стили элемента сбрасываются в ноль. */
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  border: 1px solid red;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Стили для хедера */
+
+header {
+  background-color: #e1ede6;
+  padding: 33px 15px 32px 15px;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #2c2d35;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  gap: 60px;
+  cursor: pointer;
+}
