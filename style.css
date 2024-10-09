@@ -4,6 +4,7 @@
   border: none;
   box-sizing: border-box;
   text-decoration: none;
+  font-style: normal;
 }
 
 a,
@@ -25,19 +26,21 @@ a {
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding-left: 15px;
   padding-right: 15px;
 }
 
+html, body{
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
 /* Стили для хедера */
 
 header {
   background-color: #e1ede6;
   padding: 33px 15px 32px 15px;
 
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
   font-size: 20px;
   color: #2c2d35;
 }
@@ -57,7 +60,6 @@ header {
 /* Стили для первой секции */
 
 h1 {
-  font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 60px;
   line-height: 1.1;
@@ -70,8 +72,6 @@ h1 {
 }
 
 .title-wrapper > p {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
   font-size: 18px;
   line-height: 1.5;
   color: #86928b;
@@ -83,8 +83,6 @@ h1 {
   width: 225px;
   padding: 20px 0px;
 
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
   font-size: 20px;
   color: #598d66;
 
@@ -108,7 +106,6 @@ h1 {
 /* Стили для второй секции */
 
 h2 {
-  font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 40px;
   line-height: 1.1;
@@ -120,8 +117,6 @@ h2 {
   padding: 10px 20px;
   background-color: #376b44;
 
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
   font-size: 20px;
   color: #f4f6f5;
 
@@ -131,8 +126,6 @@ h2 {
 .color {
   background-color: #d4e8d9;
 
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
   font-size: 20px;
   color: #2c2d35;
 }
@@ -156,8 +149,6 @@ article {
 }
 
 .author {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
   font-size: 18px;
   color: #86928b;
   margin-bottom: 10px;
@@ -165,7 +156,6 @@ article {
 }
 
 h3 {
-  font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 30px;
   color: #2c2d35;
@@ -173,8 +163,6 @@ h3 {
 }
 
 .picture-description {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
   font-size: 18px;
   color: #2c2d35;
   margin-bottom: 30px;
@@ -182,8 +170,6 @@ h3 {
 }
 
 .price {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
   font-size: 24px;
   color: #598d66;
   margin-bottom: 20px;
@@ -194,8 +180,6 @@ h3 {
   border: 1px solid #598d66;
   padding: 21px 105px;
 
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
   font-size: 20px;
   color: #598d66;
   background-color: #e1ede5;
@@ -210,7 +194,6 @@ article > img {
   display: flex;
   gap: 30px;
   margin-bottom: 30px;
-  /* flex-wrap: wrap; */
 }
 
 /* Стили для третьей секции */
@@ -219,10 +202,8 @@ article > img {
   background-size: no-repeat;
   background-position: center;
   background-size: cover;
-  /* width: 100%;
-  height: 100%; */
-  /* max-width: 1440px;
-  max-height: 574px; */
+  width: 100%;
+  max-height: 574px;
   position: absolute;
   z-index: -1;
 }
@@ -240,16 +221,12 @@ article > img {
 }
 
 .second-title {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
   font-size: 40px;
   line-height: 1;
   color: #f4f6f5;
 }
 
 .description-text {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
   font-size: 18px;
   line-height: 1.5;
   color: #fff;
@@ -267,8 +244,6 @@ article > img {
   margin-top: 60px;
   margin-bottom: 68px;
 
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
   font-size: 20px;
   color: #2c2d35;
 
@@ -289,7 +264,7 @@ article > img {
   justify-content: center;
 }
 
-.last-img{
+.last-img {
   margin: 70px 0;
 }
 
@@ -300,10 +275,69 @@ article > img {
 }
 
 .last-text {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
   font-size: 18px;
   line-height: 1.5;
   color: #2c2d35;
   margin: 20px 0;
+}
+
+/* Стили для футер */
+
+footer {
+  background-color: #e1ede6;
+  padding: 23px 0;
+}
+
+.last-ul {
+  list-style-type: none;
+}
+
+.last-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.address-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 60px;
+}
+
+.tel {
+  font-size: 20px;
+  color: #2c2d35;
+}
+
+.Master {
+  font-size: 18px;
+  color: #86928b;
+  display: block;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.footer-address {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.last-span {
+  display: flex;
+  gap: 6px;
+  margin-top: 10px;
+
+  font-size: 12px;
+  line-height: 1.2;
+  color: #86928b;
 }
